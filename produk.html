@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <title>Produk</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/produk.css">
+    <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <style data-info="kode css bisa ditulis di bawah sini atau di css/produk.css">
+
+    </style>
+</head>
+
+<body data-info="tulis kode bootstrap di baris 22">
+
+    <nav class="navbar navbar-dark bg-danger navbar-expand-lg bisadicopy">
+
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo/logo_kuy.png" height="40" alt="logo kopi kuy">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav11"
+                aria-controls="navbarNav11" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav11">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="index.html#best-seller">Best Seller</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index.html#our-team">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index.html#review">Review</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index.html#contact-us">Contact Us</a>
+                    </li>
+                </ul>
+                <a class="btn btn-outline-light ms-md-3 bg-dark" href="https://wa.me/6281290465033"><i
+                        class="bi bi-whatsapp"></i> Chat</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="riki-block produk text-center my-5 py-5">
+            <div class="container">
+                <h1>Choose Your Product</h1>
+                <p class="fs-4">Enjoy Your Fav Coffee </p>
+                <hr class="border border-success border-3 opacity-75">
+
+                <!-- Ini Untuk Select -->
+                <div class="form-floating">
+                    <select class="form-select" id="select_kopi" aria-label="Floating label select example">
+                        <option selected disabled>-</option>
+                        <option value="arabica">Beans</option>
+                        <option value="robusta">Kopi</option>
+                        <option value="nonkopi">Non Kopi</option>
+                        <option value="makanan">Makanan</option>
+                    </select>
+                    <label for="select_kopi">Choose Your Product</label>
+                </div>
+
+                <div id="baris_produk"
+                    class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center mt-5">
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="images/produk/product_capuchino.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Cappuccino</h5>
+                                <div class="row hargasize my-4">
+                                    <div class="col">
+                                        250 Ml
+                                    </div>
+                                    <div class="col text-Secondary fw-bold">
+                                        25.000
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-danger w-100"><i class="bi bi-cart4"></i> Beli</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="images/produk/product_latte.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Latte</h5>
+                                <div class="row hargasize my-4">
+                                    <div class="col">
+                                        150 Ml
+                                    </div>
+                                    <div class="col text-Secondary fw-bold">
+                                        15.000
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-danger w-100"><i class="bi bi-cart4"></i> Beli</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="images/produk/product_espresso.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Espresso</h5>
+                                <div class="row hargasize my-4">
+                                    <div class="col">
+                                        50 Ml
+                                    </div>
+                                    <div class="col text-Secondary fw-bold">
+                                        15.000
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-danger w-100"><i class="bi bi-cart4"></i> Beli</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="images/produk/product_kopi_susu.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Kopi Susu</h5>
+                                <div class="row hargasize my-4">
+                                    <div class="col">
+                                        250 Ml
+                                    </div>
+                                    <div class="col text-Secondary fw-bold">
+                                        35.000
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-danger w-100"><i class="bi bi-cart4"></i> Beli</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="https://fajar.co.id/wp-content/uploads/2023/09/IMG_0741.jpg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Es teh manis</h5>
+                                <div class="row hargasize my-4">
+                                    <div class="col">
+                                        250 Ml
+                                    </div>
+                                    <div class="col text-Secondary fw-bold">
+                                        10.000
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-danger w-100"><i class="bi bi-cart4"></i> Beli</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="https://i.pinimg.com/736x/cd/4f/07/cd4f07c3cca88beb236d5785ac475d4b.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Blue Lagoon</h5>
+                                <div class="row hargasize my-4">
+                                    <div class="col">
+                                        250 Ml
+                                    </div>
+                                    <div class="col text-Secondary fw-bold">
+                                        27.000
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-danger w-100"><i class="bi bi-cart4"></i> Beli</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="https://fajar.co.id/wp-content/uploads/2023/09/IMG_0741.jpg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mojito</h5>
+                                <div class="row hargasize my-4">
+                                    <div class="col">
+                                        250 Ml
+                                    </div>
+                                    <div class="col text-Secondary fw-bold">
+                                        28.000
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-danger w-100"><i class="bi bi-cart4"></i> Beli</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="https://feelgoodfoodie.net/wp-content/uploads/2023/04/Pasta-Bolognese-TIMG.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Pasta</h5>
+                                <div class="row hargasize my-4">
+                                    <div class="col text-Secondary fw-bold">
+                                        55.000
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-danger w-100"><i class="bi bi-cart4"></i> Beli</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="https://thetizz.files.wordpress.com/2014/04/papas03.jpg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sliced Cake</h5>
+                                <div class="row hargasize my-4">
+                                    <div class="col text-Secondary fw-bold">
+                                        35.000
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-danger w-100"><i class="bi bi-cart4"></i> Beli</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="https://images.services.kitchenstories.io/snkyf3ApbNhz5Xtz0zZxHxBJSlc=/3840x0/filters:quality(80)/images.kitchenstories.io/wagtailOriginalImages/R2455-final-photo-_2.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Fried Rice</h5>
+                                <div class="row hargasize my-4">
+                                    <div class="col text-Secondary fw-bold">
+                                        37.000
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-danger w-100"><i class="bi bi-cart4"></i> Beli</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="https://www.foodandwine.com/thmb/XbKXqQvF61Csj9XLs_Nj3xwlwEI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Everything-You-Need-To-Know-About-Arabica-Coffee-FT-BLOG0822-2000-127d1551916e45138ea373de75f08138.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Arabica Gayo</h5>
+                                <div class="row hargasize my-4">
+                                    <div class="col">
+                                        250 gr
+                                    </div>
+                                    <div class="col text-Secondary fw-bold">
+                                        15.000
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-danger w-100"><i class="bi bi-cart4"></i> Beli</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="https://inaexport.id/uploads/Eksportir_Product/Image/10134/1645046074__5979ca90706f97b3376f9603e9402848-removebg-preview.png"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Arabica Toraja</h5>
+                                <div class="row hargasize my-4">
+                                    <div class="col">
+                                        250 gr
+                                    </div>
+                                    <div class="col text-Secondary fw-bold">
+                                        17.000
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-danger w-100"><i class="bi bi-cart4"></i> Beli</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="https://www.malagri.com/blog/wp-content/uploads/2021/11/Indonesia-Arabica-Coffee-Beans-1.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Robusta Papua</h5>
+                                <div class="row hargasize my-4">
+                                    <div class="col">
+                                        250 gr
+                                    </div>
+                                    <div class="col text-Secondary fw-bold">
+                                        27.000
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-danger w-100"><i class="bi bi-cart4"></i> Beli</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="riki-block footer-small py-4">
+        <div class="container">
+            <div class="row text-center align-items-center bg-end">
+                <div class="col-12 col-sm-6 col-md-4 text-sm-left">
+                    <img alt="image" src="images/logo/logo_kuy.png" height="40">
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 mt-4 mt-sm-0 text-center text-sm-right text-md-center">
+                    ©kopikuy 2019-2024
+                </div>
+
+                <div class="col-12 col-md-4 mt-4 mt-md-0 text-center text-md-right">
+                    <a href="https://www.rikikurnia.com" class="mx-2"><i class="bi bi-twitter"
+                            aria-hidden="true"></i></a>
+                    <a href="https://www.rikikurnia.com" class="mx-2"><i class="bi bi-facebook"
+                            aria-hidden="true"></i></a>
+                    <a href="https://www.rikikurnia.com" class="mx-2"><i class="bi bi-instagram"
+                            aria-hidden="true"></i></a>
+                    <a href="https://www.rikikurnia.com" class="mx-2"><i class="bi bi-pinterest"
+                            aria-hidden="true"></i></a>
+                    <a href="https://www.rikikurnia.com" class="mx-2"><i class="bi bi-google"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/produk.js"></script>
+    <script data-info="bisa tulis kode js di js/produk.js ataupun di bawah sini">
+
+
+    </script>
+</body>
+
+</html>
